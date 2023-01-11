@@ -1,6 +1,0 @@
-
-Hello World
-
-Welcome to Realm Cpp SDK
-
-Thank you

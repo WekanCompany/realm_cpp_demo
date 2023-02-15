@@ -11,5 +11,5 @@ INCLUDE_DIRECTORIES( ${OpenCV_INCLUDE_DIRS} )
 add_subdirectory(../../ cmake-build-debug)
 add_executable(hello helloworld.cpp)
 target_link_libraries(hello cpprealm)
-file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/images/ DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/images/)
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/input/ DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/output/)
                                         

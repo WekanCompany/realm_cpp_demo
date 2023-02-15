@@ -23,7 +23,8 @@ You can then link to your library with `-lcpprealm`.
 **Make sure cpprealm is installed before hand, then build the example project.**
 
 ```
-Change to the example/ge project directory.  
+Go to the directory exampleApp/GE and do the following.
+
 mkdir build.debug  
 cd build.debug  
 cmake -D CMAKE_BUILD_TYPE=debug ..  
